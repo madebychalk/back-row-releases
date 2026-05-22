@@ -8,26 +8,24 @@
         <description>Updates for Back Row for Mac</description>
         <language>en</language>
 
-        <!--
-            Release entries are added here. Each <item> looks like:
-
-            <item>
-                <title>Version 1.0.1</title>
-                <pubDate>Mon, 02 Jun 2026 09:00:00 -0700</pubDate>
-                <sparkle:version>11</sparkle:version>
-                <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-                <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-                <description><![CDATA[
-                    <ul>
-                        <li>Bullet points of what changed</li>
-                    </ul>
-                ]]></description>
-                <enclosure
-                    url="https://github.com/madebychalk/back-row-releases/releases/download/v1.0.1/Back-Row-for-Mac-1.0.1.dmg"
-                    length="0"
-                    type="application/octet-stream"
-                    sparkle:edSignature="…" />
-            </item>
-        -->
+        <item>
+            <title>Version 1.0.2</title>
+            <pubDate>Fri, 22 May 2026 03:39:07 +0000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>First Sparkle-delivered update</h3>
+                <p>This release validates the auto-update path end-to-end. If you're seeing this dialog, it means the appcast, signature verification, and installer flow are all working correctly.</p>
+                <ul>
+                    <li>No user-visible changes from 1.0.1</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/madebychalk/back-row-releases/releases/download/v1.0.2/Back-Row-for-Mac-1.0.2.dmg"
+                length="3579147"
+                type="application/octet-stream"
+                sparkle:edSignature="3TGhX4z+U/Flp03Uj6iSjMpXXKCgmLkLkPcuJgjzmOfZEWEPAanBjA+AAX7KmEW24dyxBTiCMFtl7n3z1YZACQ==" />
+        </item>
     </channel>
 </rss>
