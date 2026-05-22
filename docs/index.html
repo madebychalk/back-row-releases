@@ -3,37 +3,67 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Back Row for Mac</title>
-    <meta name="description" content="Control your Mac from your iPhone — system volume, display, screensaver, sleep, and more.">
+    <title>Back Row — Control your Mac from your iPhone or iPad</title>
+    <meta name="description" content="Back Row puts your Mac's volume, brightness, ambient lighting, and sleep controls on your iPhone. Same Wi-Fi, no cloud, no account, no fuss. Just settle in.">
+    <meta name="theme-color" content="#000000">
+    <meta property="og:title" content="Back Row">
+    <meta property="og:description" content="Control your Mac from your iPhone or iPad.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://backrowapp.com/">
+    <meta property="og:image" content="https://backrowapp.com/assets/og-image.png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640">
+    <meta property="og:image:alt" content="A row of dark purple velvet theater chairs against a black backdrop.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Back Row">
+    <meta name="twitter:description" content="Control your Mac from your iPhone or iPad.">
+    <meta name="twitter:image" content="https://backrowapp.com/assets/og-image.png">
+    <meta name="twitter:image:alt" content="A row of dark purple velvet theater chairs against a black backdrop.">
+    <link rel="preload" href="assets/soehne-breit-leicht.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <div class="icon" aria-hidden="true">BR</div>
-        <h1>Back Row</h1>
-        <p class="tagline">A menu-bar remote control for your Mac, driven by your iPhone.</p>
+        <header class="hero">
+            <h1 class="wordmark" aria-label="Back Row">
+                <span>Back</span>
+                <span>Row</span>
+            </h1>
+            <div class="chairs" aria-hidden="true">
+                <img src="assets/back-row-chairs.png" alt="">
+            </div>
+            <canvas class="motes" aria-hidden="true"></canvas>
+        </header>
 
-        <a class="download" href="https://github.com/madebychalk/back-row-releases/releases/latest">
-            Download for macOS
-        </a>
-        <p class="requirement">Requires macOS 13 or later. Apple Silicon or Intel.</p>
+        <section class="pitch">
+            <p class="eyebrow">Coming Soon</p>
+            <h2 class="headline">Control your Mac from your iPhone or iPad.</h2>
+            <p class="body">Back Row puts your Mac's volume, brightness, ambient lighting, and sleep controls on your iPhone. Same Wi&#8209;Fi, no cloud, no account, no fuss. Just settle in.</p>
+        </section>
 
-        <section class="features">
-            <h2>What you get</h2>
-            <ul>
-                <li>System volume control, with true Core Audio mute</li>
-                <li>Display brightness, Dark Mode, Night Shift, True Tone</li>
-                <li>Tinted display filters at adjustable opacity</li>
-                <li>Sleep, wake, screensaver, and Wake-on-LAN</li>
-                <li>Discovery over Bonjour — no cloud relay, just your Wi-Fi</li>
-                <li>Built-in <em>Check for Updates…</em> so you stay current</li>
-            </ul>
+        <section class="ctas" aria-label="Download">
+            <button type="button" class="cta cta-primary" disabled aria-disabled="true">
+                Coming to the App Store
+            </button>
+            <div class="separator" aria-hidden="true">
+                <span class="rule"></span>
+                <span class="and">and</span>
+                <span class="rule"></span>
+            </div>
+            <a class="cta cta-secondary" href="https://github.com/madebychalk/back-row-releases/releases/latest/download/Back-Row-for-Mac.dmg">
+                Download for Mac
+            </a>
         </section>
     </main>
 
     <footer>
-        <a href="https://github.com/madebychalk/back-row-releases">Releases</a>
-        · <a href="https://github.com/madebychalk/back-row-releases/blob/main/README.md">About</a>
+        <nav>
+            <a href="https://github.com/madebychalk/back-row-releases/releases">Releases</a>
+            <span class="divider" aria-hidden="true">|</span>
+            <a href="https://github.com/madebychalk/back-row-releases/blob/main/README.md">About</a>
+        </nav>
     </footer>
+
+    <script src="motes.js" defer></script>
 </body>
 </html>
