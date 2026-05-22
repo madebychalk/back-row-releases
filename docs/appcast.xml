@@ -9,6 +9,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.3</title>
+            <pubDate>Fri, 22 May 2026 05:19:26 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Menu bar header now shows the full version (e.g. <em>Back Row 1.0.3 (13)</em>) instead of only the build number.</li>
+                    <li>First notarized Sparkle release — Developer ID signed, Apple-notarized, stapled.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/madebychalk/back-row-releases/releases/download/v1.0.3/Back-Row-for-Mac-1.0.3.dmg"
+                length="3787224"
+                type="application/octet-stream"
+                sparkle:edSignature="g1Oikb7Sy9d645/464BmYjyFWd0jDyRcscr3D+qYyRAxi6AgBPZERSKQw/F/opmnQmcQF253iaDbLn4mTtOfAw==" />
+        </item>
+
+        <item>
             <title>Version 1.0.2</title>
             <pubDate>Fri, 22 May 2026 03:39:07 +0000</pubDate>
             <sparkle:version>12</sparkle:version>
