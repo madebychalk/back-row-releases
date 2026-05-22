@@ -12,7 +12,7 @@
 
     // Tunable knobs.
     const COUNT = 90;          // population density
-    const MAX_SIZE = 2;        // px radius cap (matches the "size: 2" feel)
+    const MAX_SIZE = 1.5;      // px radius cap — slightly finer dust
     const MAX_SPEED = 0.35;    // drift velocity per frame (slow ambient float)
     const MAX_ALPHA = 0.55;    // peak brightness — keep low for "subtle"
     const COLOR = "233, 218, 255"; // RGB of --fg lavender
